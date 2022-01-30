@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A3BD6E3-2D17-A90E-21C6-D4675443FD5A" name="orders">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:02:46 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D3F87133-75FC-0D34-A666-C2B20D881AB3">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:03:53 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_price" id="4E0B5FFC-1E86-F359-8A5D-0B7C7569240C">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:03:53 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rents_id" id="DA9AFC3B-8770-23DF-639D-CF67BC011F68">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:13:02 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="959A2AD8-C171-ACD8-1CDF-19F8B0866A8E" referredColumn="24C2AD6B-8C01-BA02-BE13-8ED8FAC420DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37BB1929-2B01-20D0-1F82-46EDB71BD64C" name="ORDERS_PK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:03:53 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3F87133-75FC-0D34-A666-C2B20D881AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="855E2842-6F2B-CE5F-615D-656992267375" name="orders_rents_FK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:13:02 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA9AFC3B-8770-23DF-639D-CF67BC011F68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

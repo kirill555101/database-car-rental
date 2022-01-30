@@ -1,0 +1,6 @@
+пароль: admin
+
+логин моего пользователя: COURSEWORK_USER
+
+пароль в apex: Abc#123
+новый пароль в apex: admin

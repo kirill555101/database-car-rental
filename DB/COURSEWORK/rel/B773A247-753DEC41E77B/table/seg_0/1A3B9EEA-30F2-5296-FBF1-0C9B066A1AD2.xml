@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A3B9EEA-30F2-5296-FBF1-0C9B066A1AD2" name="cars">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:49:40 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A4CD6CB2-F6A5-90D6-6175-70E8CB1E58A5">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mark" id="6864231D-3DF0-86C7-462C-2039804C4955">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produced_year" id="6567A70B-8029-F594-46F1-B699DE9270F0">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carcass_type" id="264E4A84-841D-6173-8749-832399A7D6BF">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="car_number" id="9984506C-1AF4-00E2-F934-021551E463C8">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="day_payment" id="DBA8C826-22C1-DAB8-CF3A-6DEE81F5E00D">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_seats" id="A0E0F886-204F-390B-289C-50A2A4686670">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="116F15E4-6760-746D-CD7A-BC791F2BFE15">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parks_id" id="19EB3C93-1FF6-3FDF-22F1-DE1038403388">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:14:19 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB405958-4212-77F8-9B4C-CF791C73B313" referredColumn="2AC755B1-FAA1-8C6F-6952-8439E7A502CA"/>
+</associations>
+</Column>
+<Column name="is_available" id="ED7188B0-2EC1-11DC-16E9-6852CF469525">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-20 22:49:26 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4BE8B1E-120E-2C9E-3101-D6E155380E4A" name="CARS_PK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:21 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4CD6CB2-F6A5-90D6-6175-70E8CB1E58A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C34530D0-5E37-7285-011C-B1254AB1EA79" name="cars_parks_FK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:14:19 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19EB3C93-1FF6-3FDF-22F1-DE1038403388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
