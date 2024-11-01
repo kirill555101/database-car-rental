@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D4358A1-A1B4-5411-04FB-3F1156E3AF86" name="damages">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:04:49 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AC4AB3B0-0583-5D6D-42E1-E67C2781C719">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:07:07 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sum" id="CC4EB710-4D91-6119-E97B-6DE9E7709E28">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:07:07 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="measure" id="FF5082F8-2498-FD94-3B70-7FC7F84F7FE8">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:07:07 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B00340D-B5B0-DE65-8614-B96A37D60EFA" name="DAMAGES_PK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:07:07 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC4AB3B0-0583-5D6D-42E1-E67C2781C719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

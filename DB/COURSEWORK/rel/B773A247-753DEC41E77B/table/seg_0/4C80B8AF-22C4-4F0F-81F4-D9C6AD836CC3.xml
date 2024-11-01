@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C80B8AF-22C4-4F0F-81F4-D9C6AD836CC3" name="contracts">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:01:31 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6C0BF068-8210-B317-5182-1058471B0543">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:02:27 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="begin_date" id="27FCEDB4-CDFE-1C44-E5A5-6B42B0854297">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:02:27 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="AEEE1280-3018-01B3-A6B1-35762386B38F">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:02:27 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clients_id" id="433CE1A6-9966-83EC-3547-936C071690C4">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:14:03 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E25318D-78A3-5B84-F0BC-5159A196F4AA" referredColumn="0C3C074E-DDC2-E579-0C29-B666473C3932"/>
+</associations>
+</Column>
+<Column name="companies_id" id="A3759700-290C-E253-0873-6655590CAA58">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:15:14 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00614538-5973-54B5-0708-6507E6B15557" referredColumn="F3887090-E908-5702-0FE6-4496E004B9C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDF1FA94-51B7-50A4-25E4-1C35895238EC" name="CONTRACTS_PK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:02:27 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C0BF068-8210-B317-5182-1058471B0543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11FAF882-49FE-10BD-2E15-A5CD8664EE35" name="contracts_clients_FK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:14:03 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="433CE1A6-9966-83EC-3547-936C071690C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="206AEB38-E73C-AFC3-AABD-A7574930E81F" name="contracts_companies_FK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:15:14 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3759700-290C-E253-0873-6655590CAA58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

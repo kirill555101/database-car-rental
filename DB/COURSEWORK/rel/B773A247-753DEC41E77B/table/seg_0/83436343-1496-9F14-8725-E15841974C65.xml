@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83436343-1496-9F14-8725-E15841974C65" name="rents">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:55:59 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="24C2AD6B-8C01-BA02-BE13-8ED8FAC420DD">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:57:20 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="begin_date" id="B8F6AD8A-DDBA-E0AB-7D3E-341FF8EB7AB3">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:57:20 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="F7197D03-2FFF-FAA4-FA4D-618589AD101F">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:57:20 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clients_id" id="0749F6CA-5B1C-BA28-17E7-D53752817B2D">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:13:26 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="143771FC-DC8B-B8F6-E0D0-8D160286C473" referredColumn="0C3C074E-DDC2-E579-0C29-B666473C3932"/>
+</associations>
+</Column>
+<Column name="cars_id" id="3D3B33DB-0C51-3630-02BB-729ECCF25508">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:13:44 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E2A50FC-135B-0B66-57BA-D0A8F632D51D" referredColumn="A4CD6CB2-F6A5-90D6-6175-70E8CB1E58A5"/>
+</associations>
+</Column>
+<Column name="damages_id" id="B5616D2B-1887-4477-E07F-3E318BC33235">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 12:38:05 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F19A3DC6-42FD-AF0E-B8D4-DA25984906F3" referredColumn="AC4AB3B0-0583-5D6D-42E1-E67C2781C719"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3121A628-7044-C43F-1040-021F42175E79" name="rent_PK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:57:20 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24C2AD6B-8C01-BA02-BE13-8ED8FAC420DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A50F1654-B00F-0F97-AC44-B515F88D9A57" name="rents_clients_FK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:13:26 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0749F6CA-5B1C-BA28-17E7-D53752817B2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="665E60A1-6D8A-C0B0-470E-D33C008E2DC9" name="rents_cars_FK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:13:44 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3B33DB-0C51-3630-02BB-729ECCF25508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A62FE4D7-14AD-9126-7C3F-2B523FAB03E9" name="rents_damages_FK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 12:38:05 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5616D2B-1887-4477-E07F-3E318BC33235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

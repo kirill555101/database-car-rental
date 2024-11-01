@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFD12149-ADDC-EAC9-9475-ED39DAE10547" name="companies">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:46:39 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F3887090-E908-5702-0FE6-4496E004B9C5">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:47:35 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="C1176C83-FCB5-41E2-817E-7C3FC0D5CCDB">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:47:35 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="E34C7E2F-7B5D-5DA7-22C2-DAE4725797EE">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:47:35 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C50BDDB9-A120-21E6-1241-FDFED61AC50A" name="COPANIES_PK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:47:35 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3887090-E908-5702-0FE6-4496E004B9C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5638409E-5F51-4CC5-7BAA-F8401A94F9AF" name="clients">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 10:57:35 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0C3C074E-DDC2-E579-0C29-B666473C3932">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:00:55 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="surname" id="856B92E7-0654-B5DB-EDB2-B5412891336F">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:00:55 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="454983AE-7FF9-3B78-F2F0-8D8CC5D2A264">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:00:55 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patronymic" id="BA57094A-9CE9-C975-A1E0-683B9C959399">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:00:55 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="0C19F33E-B6E1-6F35-DE72-4CD0E0318D48">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:00:55 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="4F9676C0-03BA-8C3E-2A1D-3521651A0FB1">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:00:55 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C4D7019-9236-F3E5-1987-809CF48D2567" name="CLIENTS_PK">
+<createdBy>kir20</createdBy>
+<createdTime>2021-03-16 11:00:55 UTC</createdTime>
+<ownerDesignName>COURSEWORK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C3C074E-DDC2-E579-0C29-B666473C3932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
